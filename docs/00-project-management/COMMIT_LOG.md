@@ -1,4 +1,5 @@
 # CargoSphere Operations Platform
+
 # Commit Log
 
 This document records significant Git commits made during the development of the CargoSphere Operations Platform.
@@ -12,6 +13,8 @@ Commit messages follow a conventional format where appropriate.
 | # | Date | Branch | Commit | Type | Description |
 |---|---|---|---|---|---|
 | 1 | 21 Sep 2026 | develop | `6f9d27d` | docs | Add project charter v1.0 |
+| 2 | 21 Sep 2026 | develop | `d9455fb` | docs | Establish project management logs |
+| 3 | 21 Sep 2026 | develop | `95f40d6` | docs | Document stakeholder and user requirements |
 
 ---
 
