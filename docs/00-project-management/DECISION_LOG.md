@@ -109,3 +109,43 @@ Continuous documentation provides an accurate development history and supports c
 
 **Impact:**  
 Documentation will be maintained as a first-class project activity and tracked through Git.
+
+---
+
+## Decision 008 — Separate Operational User Roles
+
+**Date:** 21 September 2026
+
+**Decision:**  
+CargoSphere will use separate system roles for Operations Management, Operations, Documentation, Clearance and Delivery rather than using one generic Operations Staff role.
+
+**Reason:**  
+The responsibilities and information access requirements of these departments differ significantly. Separate roles allow the system to enforce more appropriate access boundaries and reflect the organization's actual operational structure.
+
+**Impact:**  
+The system will require role-specific permissions and access control.
+
+---
+
+## Decision 009 — Predefined Role-Based Access Control
+
+**Date:** 21 September 2026
+
+**Decision:**  
+The initial system will use predefined roles with established permission sets rather than allowing administrators to create arbitrary custom permissions for individual users.
+
+**Initial roles:**
+
+- System Administrator
+- Operations Manager
+- Operations Officer
+- Documentation Officer
+- Clearance Officer
+- Delivery Coordinator
+- Customer
+
+**Reason:**  
+A predefined-role model provides a clearer and more manageable access-control structure for the initial system while still allowing the underlying architecture to support more granular permissions in a future version.
+
+**Impact:**  
+Authorization logic will be designed around role-based permissions, with the architecture allowing future extension if required.
